@@ -44,6 +44,21 @@
     align-items: center;
     color: #F4F4F4;        
 }
+.h2{
+    position: absolute;
+    width: 203px;
+    height: 42px;
+    left: calc(50% - 203px/2 - 18.5px);
+    top: 700px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+}
 .h3
 {
     width: 132px;
@@ -54,4 +69,35 @@
     font-size: 20px;
     line-height: 36px;
     color: #F4F4F4;
+}
+.body
+{
+    background: #262626;
+}
+.bio
+{
+margin-left: 100px;
+padding-left: 100px;
+}
+.bioimage
+{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 250px;
+    height: 250px;
+    left: 228px;
+    top: 0px;
+    border-radius: 125px;
+}
+.introparagraph
+{
+    margin-left: 100px;
+font-family: 'DM Sans';
+font-style: normal;
+color: #F4F4F4;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+display: flex;
+align-items: center;
 }
