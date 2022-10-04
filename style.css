@@ -89,7 +89,7 @@ left: 228px;
 top: 0px;
 border-radius: 125px;
 }
-.introparagraph
+.paragraph
 {
 margin-left: 100px;
 font-family: 'DM Sans';
@@ -108,6 +108,6 @@ align-items: center;
     left: 50%;
 }
 #alltravellogo{
-    width: 200px;
-    height: 200px;
+    width: 340px;
+    height: 136.33px;
 }
