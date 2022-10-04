@@ -9,11 +9,11 @@
 }
 .navleft
 {
+    align-items: center;
     position: absolute;
     width: 477px;
-    height: 93px;
+    height: 150px;
     left: 32px;
-    top: 8px;
 }
 .navright
 {
@@ -48,7 +48,7 @@
     position: absolute;
     width: 203px;
     height: 42px;
-    left: calc(50% - 203px/2 - 18.5px);
+    left: 50%;
     top: 700px;
 font-family: 'DM Sans';
 font-style: normal;
@@ -81,17 +81,17 @@ padding-left: 100px;
 }
 .bioimage
 {
-    margin-left: 100px;
-    margin-top: 200px;
-    width: 250px;
-    height: 250px;
-    left: 228px;
-    top: 0px;
-    border-radius: 125px;
+margin-left: 100px;
+margin-top: 200px;
+width: 250px;
+height: 250px;
+left: 228px;
+top: 0px;
+border-radius: 125px;
 }
 .introparagraph
 {
-    margin-left: 100px;
+margin-left: 100px;
 font-family: 'DM Sans';
 font-style: normal;
 color: #F4F4F4;
@@ -100,4 +100,14 @@ font-size: 20px;
 line-height: 32px;
 display: flex;
 align-items: center;
+}
+.social{
+    position: absolute;
+    align-items: center;
+    bottom: 0px;
+    left: 50%;
+}
+#alltravellogo{
+    width: 200px;
+    height: 200px;
 }
