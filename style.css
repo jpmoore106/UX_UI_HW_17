@@ -1,5 +1,5 @@
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif font-style: normal;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
@@ -9,16 +9,12 @@ h1 {
 h2 {
     width: 203px;
     height: 42px;
-    left: 50%;
-    top: 700px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
     color: #FFFFFF;
-    display: flex;
-    align-items: center;
 }
 
 h3 {
@@ -33,12 +29,12 @@ h3 {
 }
 
 p1 {
-    margin-left: 25px;
+    margin-left: 0px;
     font-family: 'DM Sans';
     font-style: normal;
     color: #F4F4F4;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 32px;
     display: flex;
     align-items: center;
@@ -76,9 +72,7 @@ p2 {
     display: flex;
 }
 
-.name-title{
-    
-}
+.name-title {}
 
 .navright {
     display: flex;
@@ -95,39 +89,57 @@ p2 {
 }
 
 #bio {
-    margin-left: 100px;
+    margin-top: 100px;
     padding-left: 100px;
 }
 
 #bioimage {
-    margin-left: 100px;
-    margin-top: 200px;
+    margin-bottom: 50px;
     width: 250px;
     height: 250px;
-    left: 228px;
+    left: 0px;
     top: 0px;
     border-radius: 75px;
     filter: saturate(120%) brightness(100%) contrast(115%);
 }
 
-#case-study-title {
-    text-align: center;
+.page-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.case-study-alltravel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 48px;
+
+    position: relative;
+    width: 832px;
+    height: 656.33px;
+    left: 212px;
+    top: 250px;
 }
 
 .social {
-    position: absolute;
     align-items: center;
-    bottom: 0px;
+    bottom: 0%;
     left: 50%;
 }
 
 .cta {
-    width: 164px;
-    height: 47px;
-    left: 20px;
-    top: 20px;
+    width: 150px;
+    height: 75px;
     background: #FAFAFA;
     border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 #alltravellogo {
