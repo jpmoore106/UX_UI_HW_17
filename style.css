@@ -1,66 +1,27 @@
-.navigation
-{
-    position: absolute;
-    height: 109px;
-    left: 20px;
-    right: 20px;
-    top: 20px;
-    background: #171717;
-}
-.navleft
-{
-    align-items: center;
-    position: absolute;
-    width: 477px;
-    height: 150px;
-    left: 32px;
-}
-.navright
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 32px;    
-    position: absolute;
-    width: 561px;
-    height: 36px;
-    right: 32px;
-    top: 36.5px;
-}
-.h1
-{
-    position: absolute;
-    width: 477px;
-    height: 93px;
-    left: 25px;
-    top: 0px;
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif font-style: normal;
+    font-weight: 700;
     font-size: 32px;
-    line-height: 58px;
-    display: flex;
-    align-items: center;
-    color: #F4F4F4;        
+    line-height: 42px;
+    color: #FFFFFF;
 }
-.h2{
-    position: absolute;
+
+h2 {
     width: 203px;
     height: 42px;
     left: 50%;
     top: 700px;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 42px;
-color: #FFFFFF;
-display: flex;
-align-items: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
-.h3
-{
+
+h3 {
     width: 132px;
     height: 36px;
     font-family: 'DM Sans';
@@ -70,44 +31,106 @@ align-items: center;
     line-height: 36px;
     color: #F4F4F4;
 }
-.body
-{
+
+p1 {
+    margin-left: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #F4F4F4;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+p2 {
+    margin-left: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.body {
     background: #262626;
 }
-.bio
-{
-margin-left: 100px;
-padding-left: 100px;
+
+.navigation {
+    display: flex;
+    height: 109px;
+    background: #171717;
+    align-items: center;
 }
-.bioimage
-{
-margin-left: 100px;
-margin-top: 200px;
-width: 250px;
-height: 250px;
-left: 228px;
-top: 0px;
-border-radius: 125px;
+
+.navleft {
+    padding-left: 25px;
+    align-items: center;
+    width: 477px;
+    height: 150px;
+    justify-content: flex-start;
+    display: flex;
 }
-.paragraph
-{
-margin-left: 100px;
-font-family: 'DM Sans';
-font-style: normal;
-color: #F4F4F4;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-display: flex;
-align-items: center;
+
+.name-title{
+    
 }
-.social{
+
+.navright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    justify-content: flex-end;
+    flex-grow: 3;
+    width: 561px;
+    height: 36px;
+    right: 32px;
+    top: 36.5px;
+}
+
+#bio {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+#bioimage {
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 250px;
+    height: 250px;
+    left: 228px;
+    top: 0px;
+    border-radius: 75px;
+    filter: saturate(120%) brightness(100%) contrast(115%);
+}
+
+#case-study-title {
+    text-align: center;
+}
+
+.social {
     position: absolute;
     align-items: center;
     bottom: 0px;
     left: 50%;
 }
-#alltravellogo{
+
+.cta {
+    width: 164px;
+    height: 47px;
+    left: 20px;
+    top: 20px;
+    background: #FAFAFA;
+    border-radius: 15px;
+}
+
+#alltravellogo {
     width: 340px;
     height: 136.33px;
 }
