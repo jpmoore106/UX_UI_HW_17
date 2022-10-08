@@ -52,24 +52,28 @@ p2 {
     color: #FFFFFF;
 }
 
-.body {
+.mainContent {
     background: #262626;
+    width: 100vw;
 }
 
 .navigation {
     display: flex;
     height: 109px;
+    width: 100%;
     background: #171717;
     align-items: center;
+    outline: solid red 1px;
 }
 
 .navleft {
     padding-left: 25px;
     align-items: center;
     width: 477px;
-    height: 150px;
+    /* height: 150px; */
     justify-content: flex-start;
     display: flex;
+    outline: solid red 1px;
 }
 
 .name-title {}
@@ -86,49 +90,54 @@ p2 {
     height: 36px;
     right: 32px;
     top: 36.5px;
+    outline: solid red 1px;
 }
 
 #bio {
     margin-top: 100px;
     padding-left: 100px;
+    outline: solid red 1px;
+    display: inline-block;
 }
 
 #bioimage {
     margin-bottom: 50px;
-    width: 250px;
-    height: 250px;
-    left: 0px;
-    top: 0px;
-    border-radius: 75px;
+    width: 200px;
+    height: 199.53px;
+    /* width: 250px;
+    height: 250px; */
+    /* left: 0px;
+    top: 0px; */
+    border-radius: 25px;
     filter: saturate(120%) brightness(100%) contrast(115%);
+    outline: solid red 1px;
 }
 
 .page-title {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 150px;
+    /* top: 250px; */
+    font-family: 'Bebas Neue', cursive;
+    outline: solid red 1px;
 }
 
-.case-study-alltravel {
+.case-study-layout {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 15px;
     gap: 48px;
 
+    /* margin-top: 250px; */
     position: relative;
-    width: 832px;
-    height: 656.33px;
+    /* width: 832px; */
+    /* height: 656.33px; */
     left: 212px;
-    top: 250px;
-}
-
-.social {
-    align-items: center;
-    bottom: 0%;
-    left: 50%;
+    /* top: 250px; */
+    outline: solid red 1px;
 }
 
 .cta {
@@ -140,9 +149,31 @@ p2 {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    outline: solid red 1px;
 }
 
 #alltravellogo {
     width: 340px;
     height: 136.33px;
+    outline: solid red 1px;
+}
+
+footer {
+    align-items: center;
+}
+
+.social {
+    margin-top: 25px;
+    outline: solid red 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+    gap: 50px;
+}
+
+.SocialMediaImage {
+    width: 50px;
+    height: 50px;
 }
