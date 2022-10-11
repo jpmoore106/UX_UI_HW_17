@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 48px;
     line-height: 42px;
     color: #FFFFFF;
 }
@@ -28,29 +28,38 @@ h3 {
     color: #F4F4F4;
 }
 
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
 p1 {
-    margin-left: 0px;
+    /* margin-left: 0px; */
     font-family: 'DM Sans';
     font-style: normal;
     color: #F4F4F4;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 p2 {
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     color: #FFFFFF;
 }
+
 
 .mainContent {
     background: #262626;
@@ -63,6 +72,8 @@ p2 {
     width: 100%;
     background: #171717;
     align-items: center;
+    color: #F4F4F4;
+    text-decoration: none;
     outline: solid red 1px;
 }
 
@@ -74,9 +85,10 @@ p2 {
     justify-content: flex-start;
     display: flex;
     outline: solid red 1px;
+    color: #F4F4F4;
+    text-decoration: none;
+    
 }
-
-.name-title {}
 
 .navright {
     display: flex;
@@ -91,16 +103,18 @@ p2 {
     right: 32px;
     top: 36.5px;
     outline: solid red 1px;
+    text-decoration: none;
 }
 
 #bio {
     margin-top: 100px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     outline: solid red 1px;
     display: inline-block;
 }
 
 #bioimage {
+    float: left;
     margin-bottom: 50px;
     width: 200px;
     height: 199.53px;
@@ -111,6 +125,14 @@ p2 {
     border-radius: 25px;
     filter: saturate(120%) brightness(100%) contrast(115%);
     outline: solid red 1px;
+}
+
+#bioDescription {
+    padding-left: 25px;
+    position: relative;
+    top: 25px;
+    outline: solid red 1px;
+    left: 25px;
 }
 
 .page-title {
